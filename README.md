@@ -1,4 +1,4 @@
-# This lesson will cover control flow
+# Control Flow
 ## if, elif and else statements
 - If is used to perform an action if a condition is true
 - Elif is else if
@@ -6,7 +6,7 @@
 - Syntax : if then condition
 - example:
 ```
- age = int(input("How old are you?"))
+ age = int(input("How old are you?"))  # promts the user to enter an age and converts it to integer
 
  if age >= 15:
      print("You are 15 or above")
@@ -24,7 +24,7 @@ age = int(input("Please enter your age    "))
 
 if age >= 18:
     print("You can watch any film")
-if age in range (15,17):
+if age in range (15,17):   # checks if age is in the range 15-17
     print("You can watch everything but an 18 film")
 if age in range (12,14):
     print("You can watch everything but 15 and 18 rated films")
@@ -42,17 +42,17 @@ Loops for loop and while loop
 -Syntax for <variable_name> in <name_of_data>
 -Examples:
 ``` 
-shopping_list = ["Eggs", "Milk", "Super Malt"]
+shopping_list = ["Eggs", "Milk", "Super Malt"] # Creates a list
 print(shopping_list)
 
-for items in shopping_list:
+for items in shopping_list:  # iterates through list at each item
     if items == "Milk":
         print(items)
 
 for items in shopping_list:
      if items == "Milk":
          print(items)
-         break
+         break  # break statement
 
 for items in shopping_list:
      if items == "Milk":
