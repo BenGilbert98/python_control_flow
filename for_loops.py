@@ -1,14 +1,14 @@
 # Loops for loop and while loop
 # for loop is used to iterate through the data
 # Syntax for <variable_name> in <name_of_data>
-
+#
 # shopping_list = ["Eggs", "Milk", "Super Malt"]
 # print(shopping_list)
-
+#
 # for items in shopping_list:
 #     if items == "Milk":
 #         print(items)
-
+#
 # for items in shopping_list:
 #      if items == "Milk":
 #          print(items)
@@ -20,16 +20,16 @@
 #          continue
 
 # Task 1 - calculate year of birth
-name = input("What is your name?    ")
-age = int(input("How old are you?    "))
-birth_year = 2020 - age # calculates the year of birth
-already_happened = input("Has your birthday happened this year?   (Y/N)    ")
-
-if already_happened.lower() == "y": # if the user states their birthday happened this year
-    print("OMG", name, "you are", age, "years old so you were born in the year", birth_year) # print statement
-else:  # otherwise
-    birth_year -= 1 # -1 from birth year
-    print("OMG", name, "you are", age, "years old so you were born in the year", birth_year)
+# name = input("What is your name?    ")
+# age = int(input("How old are you?    "))
+# birth_year = 2020 - age # calculates the year of birth
+# already_happened = input("Has your birthday happened this year?   (Y/N)    ")
+#
+# if already_happened.lower() == "y": # if the user states their birthday happened this year
+#     print("OMG", name, "you are", age, "years old so you were born in the year", birth_year) # print statement
+# else:  # otherwise
+#     birth_year -= 1 # -1 from birth year
+#     print("OMG", name, "you are", age, "years old so you were born in the year", birth_year)
 
 
 # Loop Task
